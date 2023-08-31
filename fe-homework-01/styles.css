@@ -1,0 +1,12 @@
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#app {
+    width: 60%;
+    border: 2px solid darkblue;
+    border-radius: 5px;;
+}
