@@ -4,44 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles.css">
     <title>CV Nicoleta Barbacaru</title>
 </head>
 <body>
-    <div id="app">
-    <header>
-        <h1>Nicoleta Barbacaru</h1>
-        <h1>Chisinau, Republic of Moldova</h1>
-        
-    </header>
+   
+   
+   <main class="container">    
+    <header>        
+        <div class="imgBox">
+            <img src="cvImg.jpg" alt="">
+        </div>
+        <div class="profileText">
+         <h1>Nicoleta Barbacaru</h1>
+         <span>
+         <h2>Learning Front-End Development</h2></span>
+        </div>
+    </header> 
+    
     <hr>
+    <section class="info">
+<section class="left">
 <section class="contact">
     <h2>Contact info:</h2>
-    <h3>Phone number: <a href="tel:+37379161727">079161727</a></h3>
-    <h3>Email: <a href="mailto:nicoletaburlacu28@yahoo.com">nicoletaburlacu28@yahoo.com</a></h3>
+   <ul>
+    
+   <li><h3> <i class="fa-solid fa-phone"></i> <a href="tel:+37379161727">079161727</a></h3></li>
+    <li><h3> <i class="fa-solid fa-envelope"></i> <a href="mailto:nicoletaburlacu28@yahoo.com">nicoletaburlacu28@yahoo.com</a></h3></li>
+  <li><h3> <i class="fa-solid fa-house"></i> Chisinau, Republic of Moldova</h3></li>
+   </ul> 
 </section>
 <hr>
-<article class="experience">
-    <h2>Experience:</h2>
+<section class="skills">
+    <h2><i class="fa-solid fa-cog"></i>Skills</h2>
     <ul>
-        <li>May 2012- Apr 2014-Customer Service Representative – Modnique.com</li>
-        <li>Nov 2011- May 2012- GoodYear Back Office Team Member – „Efficient Data Processing” SRL</li>
-        <li>July 2010- Sept 2011- Customer Service Representative – Bidz.com</li>
+        <li><p>HTML</p><progress class="green" max="100" value="70"></progress></li>
+        <li><p>CSS</p><progress class="green" max="100" value="60"></progress></li>
+        <li><p>JavaScript</p><progress class="green" max="100" value="50"></progress></li>
+    </ul>
+</section>
+<hr>
+<!-- <section class="languages">
+    <h2><i class="fa-solid fa-language"></i>Languages</h2>
+    <ul>
+        <li><p>Romanian</p><progress max="100" value="100"></progress></li>
+        <li><p>English</p><progress max="100" value="80"></progress></li>
+        
+    </ul>
+</section> -->
+</section>
+<section class="right">
+<article class="experience">
+    <h2><i class="fa-solid fa-briefcase"></i> Work Experience:</h2>
+    <ul>
+        <li>Customer Service Representative – Modnique.com</li>
+        <li class="date"><i class="fa-solid fa-calendar"></i>May 2012- Apr 2014</li>
+        <li>GoodYear Back Office Team Member – „Efficient Data Processing” SRL</li>
+        <li class="date"><i class="fa-solid fa-calendar"></i>Nov 2011- May 2012</li>
+        <li>Customer Service Representative – Bidz.com</li>
+        <li class="date"><i class="fa-solid fa-calendar"></i>July 2010- Sept 2011</li>
     </ul>
 </article>
 <hr>
 <article class="education">
     <h2>Education:</h2>
 <ul>
-    <li>2010-2012  Academy of Economic Studies of Moldova-Speciality of Corporate Finance and Insurance, Chisinau</li>
-    <li>2007-2010  Academy of Economic Studies of Moldova-Faculty of Finance and Banking, Chisinau</li>
+     <li></li>Academy of Economic Studies of Moldova-Speciality of Corporate Finance and Insurance, Chisinau</li>
+     <li class="date"><i class="fa-solid fa-calendar"></i>2010-2012</li> 
+    <li>Academy of Economic Studies of Moldova-Faculty of Finance and Banking, Chisinau</li>
+    <li class="date"><i class="fa-solid fa-calendar"></i>2007-2010</li>
 </ul>
 </article>
-
+</section>
+</section>
 <footer>
     
     <p>Last edited: 30 Aug 2023</p>
 </footer>
-</div>
+</main>
+
 </body>
 </html>
