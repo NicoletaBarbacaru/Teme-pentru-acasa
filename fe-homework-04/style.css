@@ -1,0 +1,205 @@
+.container {
+  background-color: darkslategrey;
+  align-items: center;
+  justify-content: center;
+    display: flex;
+    margin: 100px;
+    border-radius: 10px;
+}
+
+.container1 {
+    margin-right: 30px;
+}
+
+.circle1 {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+  background-color: mediumspringgreen;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.circle1:hover{
+height: 200px;
+  width: 200px;
+  margin: 20px;
+  background-color: green;
+  transform: translate(-150px, 100px);
+  box-shadow: 10px 5px 5px greenyellow;
+}
+.circle2 {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    background-color: blue;
+    transition: width 2s, height 2s, transform 2s;
+  }
+  
+  .circle2:hover{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    background-color: lightsteelblue;
+    transform: translateY(250px);
+    box-shadow: 10px 5px 5px blueviolet;
+
+  }
+  
+  .circle3 {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    background-color: red;
+    transition: width 2s, height 2s, transform 2s;
+  }
+  
+  .circle3:hover{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    background-color: pink;
+    transform: translate(-100px, 50%);
+    box-shadow: 10px 5px 5px burlywood;
+
+  }
+
+  .circle4 {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    background-color:deeppink;
+    transition: width 2s, height 2s, transform 2s;
+  }
+  
+  .circle4:hover{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    background-color:firebrick;
+    transform: translateY(-50%);
+    box-shadow: 10px 5px 5px rgb(222, 135, 150);
+
+  }
+  .circle5 {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    background-color:gold;
+    transition: width 2s, height 2s, transform 2s;
+  }
+  
+  .circle5:hover{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    background-color:goldenrod;
+    transform: translate(200px, 50%);
+    box-shadow: 10px 5px 5px rgb(139, 9, 31);
+
+  }
+  .circle6 {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    background-color:olive;
+    transition: width 2s, height 2s, transform 2s;
+  }
+  
+  .circle6:hover{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    background-color: olivedrab;
+    transform: translateY(50%);
+    box-shadow: 10px 5px 5px rgb(139, 9, 31);
+  }
+  img:hover {
+    transform:rotate(20deg);
+    border-radius: 20px;;
+   
+  }
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 7px;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+  }
+  h1:hover {
+    color: hsl(0, 0%, 100%);
+    text-shadow: 0 0 10px hsl(0, 0%, 100%), 0 0 20px hsl(0, 0%, 100%), 0 0 40px hsl(0, 0%, 100%);
+  }
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* .circle-1:hover {
+    width: 200px;
+    height: 200px;
+    background-color: wheat;
+    transform: rotate(180deg);
+}
+
+.circle-2 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.circle-2:hover{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    transform: rotate(180deg) ;
+}
+.circle-3 {
+    background-color: blue;;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.circle-3:hover {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    box-shadow: 10px 5px 5px lightseagreen;
+    transform:translate(100px, 150px);
+}
+
+.circle-4 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    transition: transform 2s;
+}
+.circle-4:hover {
+    transform: translateX(100px);
+}
+.container-1 {
+    
+    display: flex;
+    justify-content: space-around;
+  
+}
+.container-2 {
+    
+    
+    display: flex;
+    justify-content: space-around;
+    
+} */
