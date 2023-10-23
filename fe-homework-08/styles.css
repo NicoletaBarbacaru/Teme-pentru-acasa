@@ -1,0 +1,141 @@
+body{
+    width:1360px;
+    font-family: 'Mulish', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.nav {
+    width: 1109px;
+    height: 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:61px 125px 110px 126px;
+}
+.nav-links a, .footer-links a {
+    text-decoration: none;
+    color: #111;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.346px;
+}
+.nav-links > a {
+    margin-right: 29px;
+}
+.intro{
+    width: 1109px;
+    margin: 0 125px 0 126px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.intro h1 {
+    width: 475px;
+    height: 121px;
+    color: #111;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px; 
+}
+.intro p{
+    color: #111;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    opacity: 0.8;
+}
+aside{
+    max-width: 635px;
+}
+.info {
+    max-width:335px;
+}
+
+.description{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 40px;
+    width: 335px;
+    height:42px;
+    align-items:center;
+    border-bottom: 1px solid lightgray;
+    padding: 16px 0 35px 0;
+}
+.description h3{
+    color: #111;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.5;
+}
+.description p{
+    color: #111;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.intro aside{
+    width: 635px;
+    height: 222px;
+    margin-right: 140px;    
+}
+.girl{
+    margin: 61px 125px 45px 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1110px;
+}
+.girl img{
+    width: 1110px;
+    height: 660px;
+    margin-bottom:45px;
+}
+.girl .paragraphs{
+    width: 1109px;
+    height: 93px;
+    color: #111;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.8;
+}
+.projects{
+    margin: 0 125px 132px 125px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+.footer {
+    width: 1109px;
+    height: 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 125px 44px 125px;
+}
+.footer-content{
+    display: flex;
+}
+img[alt="social"]{
+    margin-left: 100px;
+}
+.footer-links > a{
+    margin-right:30px;
+}
