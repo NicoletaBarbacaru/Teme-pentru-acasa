@@ -8,7 +8,7 @@
 }
 .header {
 max-width: 1773px;
-height: 821px;
+
 
 }
 .header h1{    
@@ -91,7 +91,8 @@ height: 821px;
     margin-top: 107px;
 }
 .header-nav{
-    max-width: 1773px;   
+    max-width: 1773px; 
+    height: 83px;
     background-color: #5474FD;
     display: flex;
     justify-content: space-around;
@@ -121,11 +122,37 @@ height: 821px;
     letter-spacing: 0.15rem;
     text-transform: uppercase;
 }
-.img1 {
-    width: 350px;
-    height: 220px;
-    background-image: url("./img/img1.svg");
-    background-repeat: no-repeat;
+.img1, .img2 {
+    max-width: 350px;
+    max-height: 220px;    
+}
+.why_choose_us{
+    max-width: 1770px;
+    background-image: url("./img/bgsection2.svg");
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+}
+.upper-section {
+    display: flex;
+    justify-content: space-evenly
+}
+.upper-section .content{
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    padding-left: 130px;
+
+}
+
+.landscapes {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+.landscapes div{
+    margin: 10px;
 }
