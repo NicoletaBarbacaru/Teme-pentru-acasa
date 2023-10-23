@@ -3,9 +3,6 @@
     margin:0;
     padding:0;
 }
-body {    
-
-}
 .container {
     max-width: 1800px;
 }
@@ -94,8 +91,7 @@ height: 821px;
     margin-top: 107px;
 }
 .header-nav{
-    max-width: 1773px;
-    height: 83px;
+    max-width: 1773px;   
     background-color: #5474FD;
     display: flex;
     justify-content: space-around;
@@ -124,4 +120,12 @@ height: 821px;
     line-height: 1.625rem;
     letter-spacing: 0.15rem;
     text-transform: uppercase;
+}
+.img1 {
+    width: 350px;
+    height: 220px;
+    background-image: url("./img/img1.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
