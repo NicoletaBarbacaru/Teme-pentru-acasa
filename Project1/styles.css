@@ -228,7 +228,7 @@ max-width: 1773px;
     position:relative;
     
 }
-.spain-first .info h3{
+.spain-h3{
     max-width: 80px;
     color: #E8E8E8;
     font-family: Josefin Sans;
@@ -236,8 +236,9 @@ max-width: 1773px;
     font-weight: 400;
     line-height: 1.625rem;
     letter-spacing: 0.09rem;
-    }
-.spain-first .info h2 {
+}
+
+.spain-h2 {
     max-width: 241px;
     color: #FFF;
     font-family: Josefin Sans;
@@ -246,7 +247,7 @@ max-width: 1773px;
     line-height: 1.625rem;
     text-transform: uppercase;
 }
-.spain-first .info p{
+.spain-p{
     max-width: 508px;
     color: #E8E8E8;
     font-family: Josefin Sans;
@@ -289,6 +290,7 @@ max-width: 1773px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
 }
 .spain-second .info{
     display: flex;
@@ -300,4 +302,7 @@ max-width: 1773px;
     padding-left: 30px;
     background-color: #232323;
     opacity: 0.9;
+    position: absolute;
+    top: 35%;
+    right: 15%; 
 }
