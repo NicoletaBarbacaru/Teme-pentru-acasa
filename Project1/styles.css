@@ -342,8 +342,7 @@ max-width: 1773px;
     flex-direction: column; 
     justify-content: center; 
     align-items:flex-start;
-    padding:0% 1% 0% 3%;
-   
+    padding:0% 1% 0% 3%;   
 }
 i {
     color: #5474FD;
@@ -398,4 +397,9 @@ i {
 }
 .social-icons img{
     margin: 10px;
+}
+@media (max-width:767px){
+    .testimonial-content {
+        flex-direction: column;
+    }
 }
