@@ -132,8 +132,9 @@ div.inputs {
     text-transform: uppercase;
 }
 .img1, .img2 {
-    max-width: 350px;
-    max-height: 220px;    
+   
+    /* max-width: 350px;
+    height: 220px;     */
 }
 .why_choose_us{
     max-width: 1770px;
@@ -170,15 +171,20 @@ div.inputs {
     line-height: 1.625rem;
     letter-spacing: 0.1rem;
 }
-.landscapes {
+.landscape-1 {  
+    margin-bottom: 10px;
+   width: 450px;  
+    height: 220px; 
     display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
-.landscapes div{
-    margin: 10px;
+.landscape-2 {    
+    max-width: 450px; 
+    height: 220px;
+    display: flex;
+    justify-content: flex-end;
 }
+
 .btn-explore{
     max-width: 228px;
     height: 63px;
@@ -200,6 +206,7 @@ div.inputs {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
