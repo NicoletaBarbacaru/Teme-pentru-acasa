@@ -73,6 +73,9 @@ form{
     justify-content: center;
     align-items: center;
 }
+input:focus {
+    background-color: lightblue;
+}
 [placeholder] {    
     color: #999;
     text-align: center;
@@ -215,6 +218,10 @@ div.inputs {
     letter-spacing: 0.075rem;
     text-transform: uppercase;
     padding: 21px 30px 16px 30px;
+}
+.btn-explore:hover,.btn-spain:hover{
+    background-color: #008CBA;
+    font-weight: bolder;
 }
 .lower-section {
     max-width: 1773px;
@@ -443,6 +450,10 @@ div.inputs {
     display: flex;
     justify-content: space-between;
     align-content: center;
+}
+a:hover{
+    font-weight: bolder;
+    color:darkblue;
 }
 .social-icons img{
     margin: 10px;
