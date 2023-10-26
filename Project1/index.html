@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Aleo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Project 1 - A simple website for portfolio</title>
 </head>
 <body>
@@ -27,16 +28,16 @@
         </div>
             <form action="">
                 <div class="inputs">
-                <input type="search" name="destination-search" id="destination-search" placeholder="Search Your Travel Destination"><button type="submit" value="">Search <img class="search-img" src="img/header-search.svg" alt=""></button>
+                <div><input id="search" type="search" name="destination-search" id="destination-search" placeholder="Search Your Travel Destination"></div>
+                <div class="button"><button type="submit" value="">Search <img class="search-img" src="img/header-search.svg" alt=""></button></div>
             </div>
              </form>
             <a class="scroll" href="#why_us"><p>Scroll Down</p></a>
             <img class="" src="img/arrow-down.svg" alt="">
         </div>
-            <nav class="header-nav">
-                <h2 class="logo">
-                    Bhromaon
-                </h2>
+           <div class="top">
+               <nav class="header-nav">            
+                <div class="logo-text"><h2 class="logo">Bhromaon</h2></div>
                 <div class="menu">
                     <a class="nav-item" href="">
                         Who We Are
@@ -50,8 +51,11 @@
                     <a class="nav-item" href="">
                         Contact Us
                     </a>
-                </div>
+                </div>                
             </nav>
+            <div class="icon-bars" onclick="showMenu()"><i class="fa-solid fa-bars"></i></div>
+        </div>
+            
         </header>
         <section id="why_us" class="why_choose_us">
             <div class="upper-section">
@@ -128,8 +132,8 @@
                 <a href=""><img src="img/youtube.svg" alt=""></a>
                 <a href=""><img src="img/pinterest.svg" alt=""></a>
             </div>
-
         </footer>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
