@@ -13,3 +13,9 @@ alert("You are " + result +" years old");
 let sideLength = prompt("What is the square side length?");
 let perimeter = 4 * sideLength;
 alert("The perimeter of the square is " + perimeter);
+
+//Request a radius of a circle and display the area of such a circle. 
+let radius = prompt("Plese provide the circle radius");
+let p = Math.PI;
+let circleArea = p * radius * radius;
+alert("The circle area is " + circleArea)
