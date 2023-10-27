@@ -18,4 +18,10 @@ alert("The perimeter of the square is " + perimeter);
 let radius = prompt("Plese provide the circle radius");
 let p = Math.PI;
 let circleArea = p * radius * radius;
-alert("The circle area is " + circleArea)
+alert("The circle area is " + circleArea);
+
+//Request a distance in km between the two cities from a user, and the time they want to cover it within. Count the speed needed to be on time.
+let distance = prompt("What is the distance in km, between Chisinau and Orhei?");
+let timeHours = prompt("What time do you need to cover it?");
+let speed = Math.floor(distance / timeHours);
+alert("You need to drive with "+ speed + " km/h to be on time");
