@@ -43,4 +43,11 @@ let amount = prompt("Please enter the amount in a wallet");
 let price = prompt("Please enter the price for 1 chocolate");
 let quantity = Math.floor(amount / price);
 let remainder = amount % price;
-alert("You can buy " + quantity +" chocolates with " + amount +"lei and receive " + remainder +" lei remainder")
+alert("You can buy " + quantity +" chocolates with " + amount +"lei and receive " + remainder +" lei remainder");
+
+//The user types in a sum of bank deposits for 2 months with a yearly interest rate of 5%. The program counts the sum of interest.
+let sumDeposit = prompt("Please enter the sum of bank deposits");
+const term = 2/12;
+const interestRate = 0.05;
+let sumOfInterest = sumDeposit * interestRate * term; 
+alert("The sum of interest is " + sumOfInterest +"")
