@@ -30,4 +30,10 @@ alert("You need to drive with "+ speed + " km/h to be on time");
 let USD = prompt("Please provide the amount in USD");
 const exchangeRate = 0.95;
 let amountEuro = USD * exchangeRate;
-alert("You will receive " + amountEuro +" euro for "+ USD + "$")
+alert("You will receive " + amountEuro +" euro for "+ USD + "$");
+
+//A user states a flash drive memory in GB. The program has to count how many 820MB files can be stored on this flash drive. 
+let memory = prompt("Please enter the flash drive memory in GB");
+const files = 820/1000;
+let memoryResult = Math.ceil(files * memory);
+alert("You can store " + memoryResult + "x820MB files on" + memory + " GB" + " flash drive.")
