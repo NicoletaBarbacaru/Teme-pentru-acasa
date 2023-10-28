@@ -17,7 +17,7 @@ alert("The perimeter of the square is " + perimeter);
 //Request a radius of a circle and display the area of such a circle. 
 let radius = prompt("Plese provide the circle radius");
 let p = Math.PI;
-let circleArea = p * radius * radius;
+let circleArea = Math.floor(p * radius * radius);
 alert("The circle area is " + circleArea);
 
 //Request a distance in km between the two cities from a user, and the time they want to cover it within. Count the speed needed to be on time.
@@ -36,4 +36,11 @@ alert("You will receive " + amountEuro +" euro for "+ USD + "$");
 let memory = prompt("Please enter the flash drive memory in GB");
 const files = 820/1000;
 let memoryResult = Math.ceil(files * memory);
-alert("You can store " + memoryResult + "x820MB files on" + memory + " GB" + " flash drive.")
+alert("You can store " + memoryResult + "x820MB files on" + memory + " GB" + " flash drive.");
+
+//A user types in an amount of money in a wallet and the price of one chocolate bar. The program counts how many chocolate bars the user can buy, and how much change will he/she have left. 
+let amount = prompt("Please enter the amount in a wallet");
+let price = prompt("Please enter the price for 1 chocolate");
+let quantity = Math.floor(amount / price);
+let remainder = amount % price;
+alert("You can buy " + quantity +" chocolates with " + amount +"lei and receive " + remainder +" lei remainder")
