@@ -23,6 +23,31 @@ if(stringToArray[i] === reversedArray[i]){
     alert ("It is not a palindrome")
 }}
 
+//Execute a currency converter. A user puts in USD, chooses a currency (EUR, SEK, AUD etc.) and gets the result. 
+let USD = prompt("Please enter the amount in USD");
+let exchangeRate = 0.95;
+let response = prompt("Please select a currency");
+let euro = USD * exchangeRate;
+let ronExRate = 4.69;
+let roni = Math.floor(USD * ronExRate)
+if(response === "EUR"){
+    alert(`You will receive ${euro} euro for ${USD}$ `)
+}
+if(response === "RON"){
+    alert(`You will receive ${roni} roni for ${USD}$ `)
+}
+
+//Request a length of a circumference and a perimeter of a square from a user. Define whether that circumference can fit in that square.
+let circLength = prompt("Please enter the circumference length");
+let perimeter = prompt("Please enter the square perimeter");
+const side = perimeter / 4;
+const diameter = circLength / Math.PI;
+const r = circLength /(2*Math.PI)
+if(diameter <= side){
+    alert("Yes")
+} else {
+    alert ("No")
+}
 
 //Request a date (dd:mm:yy) and put out the one that goes after it. Pay attention to the start of a new month, new year, and also leap years.
 let date = prompt("Please provide a date");
