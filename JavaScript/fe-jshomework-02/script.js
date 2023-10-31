@@ -25,6 +25,9 @@ if(stringToArray[i] === reversedArray[i]){
 
 
 //Request a date (dd:mm:yy) and put out the one that goes after it. Pay attention to the start of a new month, new year, and also leap years.
-
-let date = new Date("14 Oct 2023");
-let currentDate = prompt("Please enter a date", date);
+let date = prompt("Please provide a date");
+let nextDate = new Date(date);
+console.log(nextDate)
+nextDate.setDate(nextDate.getDate() + 1);
+console.log(nextDate.toDateString())
+alert("The next date is "+ nextDate.toDateString());
