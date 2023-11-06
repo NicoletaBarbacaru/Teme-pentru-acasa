@@ -68,4 +68,23 @@ alert("There are " + even + " even numbers");
 alert("There are " + odd + " odd numbers");
 
 let positiveNumbers = document.getElementById("positive")
-positiveNumbers.innerHTML += positive;
+positiveNumbers.innerHTML += positive;console
+
+// 6. Loop a calculator. Request 2 numbers and a sign, solve the problem, display the result and ask if the user wants one more. 
+// The loop continues until the user refuses. 
+const N1 = parseInt(prompt("Please enter the first number"));
+const N2 = parseInt(prompt("Please enter the second number"));
+const sign = prompt("Please enter a sign");
+let result;
+if(sign === "+"){
+    result = N1 + N2
+}
+else if(sign === "-"){
+    result = N1 - N2
+} else if(sign === "*"){
+    result = N1 * N2
+} else {
+    result = N1 / N2
+}
+
+alert(`${N1} ${sign} ${N2} = ${result}`)
