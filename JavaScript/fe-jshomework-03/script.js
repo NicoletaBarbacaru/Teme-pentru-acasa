@@ -33,4 +33,39 @@ alert(divisors)
 // 4. Define the number of digits in a requested number. For example, there are 4 digits in the number 6834.
 let nr = prompt("Please enter the number");
 let nrToArr = nr.toString().split("");
-alert("There are " + nrToArr.length +" digits in " + nr)
+alert("There are " + nrToArr.length +" digits in " + nr);
+
+// 5. Request 10 numbers from a user and count, how many are positive, negative, or zero. Also, count odd and even. 
+// Display the statistics. There’s only one variable (not 10) needed for input by a user. 
+let numbersArray = new Array(10);
+let positive = 0;
+let negative = 0;
+let zero = 0;
+let even = 0;
+let odd = 0;
+for( let i = 0; i < numbersArray.length; i++){
+    let input = prompt("Please enter number"+ (i+1) + "from " + numbersArray.length);
+    numbersArray[i] = Number(input);
+    if(numbersArray[i] > 0){
+        console.log(numbersArray[i]);
+        positive++
+    } else if(numbersArray[i] == 0){
+        zero++
+    } else{
+        negative++
+    }
+    if(numbersArray[i] == 0 && numbersArray[i] % 2 == 0){
+        even++
+    } else  {
+        odd++
+    }
+}
+console.log(numbersArray);
+alert("There are " + positive + " positive numbers");
+alert("There are " + negative + " negative numbers");
+alert("There are " + zero + " numbers equal to zero");
+alert("There are " + even + " even numbers");
+alert("There are " + odd + " odd numbers");
+
+let positiveNumbers = document.getElementById("positive")
+positiveNumbers.innerHTML += positive;
