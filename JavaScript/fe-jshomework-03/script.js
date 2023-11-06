@@ -29,3 +29,8 @@ for( let i = 2; i <= n; i++){
     }
 }
 alert(divisors)
+
+// 4. Define the number of digits in a requested number. For example, there are 4 digits in the number 6834.
+let nr = prompt("Please enter the number");
+let nrToArr = nr.toString().split("");
+alert("There are " + nrToArr.length +" digits in " + nr)
