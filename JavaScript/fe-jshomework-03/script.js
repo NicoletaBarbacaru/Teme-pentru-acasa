@@ -19,12 +19,13 @@ for( let i = 1; i < number1 && i < number2; i++){
         LCD = i;
     }
 }
-console.log(LCD);
-
+alert(LCD);
+// 3. Request a number and display all the divisors of it. For example, for number 8 it would be 2, 4, and 8.
 let n = prompt("Please enter a number");
-let commonDivisor = 0;
-for( let i = 1; i <= n; i++){
+let divisors = [];
+for( let i = 2; i <= n; i++){
     if( n % i === 0){
-        console.log(i)
+        divisors.push(i);
     }
 }
+alert(divisors)
