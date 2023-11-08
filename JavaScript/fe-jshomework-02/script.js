@@ -21,7 +21,9 @@ if(stringToArray[i] === reversedArray[i]){
     alert("It is a palindrome")
 } else {
     alert ("It is not a palindrome")
-}}
+}
+break;
+}
 
 //Execute a currency converter. A user puts in USD, chooses a currency (EUR, SEK, AUD etc.) and gets the result. 
 let USD = prompt("Please enter the amount in USD");
