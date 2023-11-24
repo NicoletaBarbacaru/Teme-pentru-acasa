@@ -29,4 +29,17 @@ function concat(str1,str2,str3){
     return `${str1}`+`${str2}`+ `${str3}`
 }
 concat(1,4,9);
-document.querySelector("#result2").innerHTML += concat(1,4,9)
+document.querySelector("#result2").innerHTML += concat(1,4,9);
+
+//4. Write a function that accepts the width and length of a rectangle and calculates its area. 
+//If there is only one parameter given, it counts as a square. 
+
+function rectangleArea(width,length){
+    let area = width * length;
+    if(width === length){
+        return width * width
+    } else return area
+}
+console.log(rectangleArea(10, 20));
+console.log(rectangleArea(10));
+document.querySelector("#result3").innerHTML += rectangleArea(10,20);
