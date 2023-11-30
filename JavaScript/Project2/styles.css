@@ -100,7 +100,7 @@ letter-spacing: 8px;
     justify-content: center;
   
 }
-.projects-title,.gallery-title{
+.projects-title,.gallery-title, .contact-title{
     color: #2C4058;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -283,10 +283,42 @@ font-weight: 400;
 }
 #contact {
     width: 1600px;
-    height: 1280px;
+    position: relative;
 }
 #map {
     background-color: beige;
     width: 1500px;
     height: 700px;
+}
+.form-content{
+background: #FFF;
+margin:60px 0 60px 0;
+width: 770px;
+height: 450px;
+position: absolute;
+top: 350px;
+left:400px;
+
+}
+.form {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-details{
+    margin-right: 54px;
+}
+.upper-content-contact{
+    padding: 60px;
+    /* margin-bottom: 40px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+width: 1600px;
+height: 524px;
+background: linear-gradient(243deg, #7E5AFF 16.9%, #55B7FF 83.27%);
 }
