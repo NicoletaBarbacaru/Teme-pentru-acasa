@@ -260,7 +260,6 @@ font-weight: 400;
 #gallery {
     padding: 135px 115px 143px 115px;
     width: 1600px;
-    height: 5691px;
 }
 .gallery{
     display:grid;
@@ -281,4 +280,13 @@ font-weight: 400;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+#contact {
+    width: 1600px;
+    height: 1280px;
+}
+#map {
+    background-color: beige;
+    width: 1500px;
+    height: 700px;
 }

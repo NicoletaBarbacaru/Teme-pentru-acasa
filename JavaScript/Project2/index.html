@@ -35,7 +35,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
                     <a href="#about-us" class="nav-item">ABOUT US</a>
                     <a href="#projects" class="nav-item">PROJECTS</a>
                     <a href="#news" class="nav-item">NEWS</a>
-                    <a href="" class="nav-item">CONTACT</a>
+                    <a href="#contact" class="nav-item">CONTACT</a>
                 </div>
                 <div class="social">
                     <img src="./images/social.svg" alt="social icons">
@@ -192,9 +192,27 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
             <button class="trade-button gallery-button">SEE MORE</button>
            </div>
 </section>
+<section id="contact">
+    <div id="map"></div>
+    <h3>GET IN TOUCH</h3>
+    <div class="form">
+        
+        <div class="contact-details">
+            <p>91 Nolan Extensions Suite 670</p>
+            <p>+001 356-868-2454 </p>
+            <p>montichello@service.com</p>
+            <p>From 07:05AM to 19:30PM</p>
+        </div>
+        <form action="">
+            <label for="">Mollie Medina</label>
+            <input type="email" name="" id="" placeholder="Email">
+            <button>SUBMIT</button>
+        </form>
+    </div>
+</section>
 
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
 
@@ -209,5 +227,9 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
         });
     });
   </script>
+  <script async defer src="script.js"></script>
+  <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+    ({key: "AIzaSyActQATaYKMd2RfNa_4bmGHCjZebLfNwlc", v: "weekly"});
+</script>
 </body>
 </html>
