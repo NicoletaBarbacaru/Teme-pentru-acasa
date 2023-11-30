@@ -182,10 +182,14 @@ letter-spacing: 4.5px;
     position:absolute;
     top:57px;
     right:135px;
-
 }
 .project2-description {
     padding: 0 64px 0 215px;
+}
+.slide-info{
+    background-color: #FFF;
+    margin-right:60px;
+    margin-bottom:38px;
 }
 .slide-title{
     margin:30px 0 0 20px;
@@ -212,6 +216,7 @@ letter-spacing: 4.5px;
     width: 60px;
     height: 60px;
     border-radius: 50%;
+    margin-bottom:30px;
 }
 .author-details{
     margin-left:20px;
@@ -230,4 +235,25 @@ color: #55B7FF;
 font-family: 'Montserrat', sans-serif;
 font-size: 14px;
 font-weight: 400;
+}
+#news {
+    padding: 135px 115px 143px 115px;
+    max-width: 1600px;;
+    height: 1035px;
+    background: linear-gradient(237deg, #24CCFA 11.16%, #3C7FD4 89.18%);
+}
+.news-line{
+    text-align: center;  
+    width: 100px;
+    height: 1px;
+    background: #FFF;
+    color: #FFF;
+    margin-bottom:30px;
+}
+.news-title{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
 }
