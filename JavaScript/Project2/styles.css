@@ -6,16 +6,13 @@
 .header, section {
    max-width: 1600px; 
 }
-.header {
-    
+.header {    
     height: 1064px;
     /* background-image: url("./images/background.svg"); */
-    background-image: url("./images/header-bg.svg");
-    background: linear-gradient(243deg, #7E5AFF 16.9%, #55B7FF 83.27%);
-    
+    background-image: url("./images/header-bg.svg"), linear-gradient(243deg, #7E5AFF 16.9%, #55B7FF 83.27%) ;
+    /* background: linear-gradient(243deg, #7E5AFF 16.9%, #55B7FF 83.27%); */    
     background-repeat: no-repeat;
-    background-size: cover;
-   
+    background-size: cover;   
 }
 
 .nav-item{
@@ -45,6 +42,9 @@ font-weight: 400;
 }
 .social{
     margin-top: 60px;
+}
+.social a{
+    margin-right: 20px;
 }
 
 .content{
