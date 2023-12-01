@@ -318,7 +318,29 @@ left:400px;
     align-items: center;
 }
 .footer{
-width: 1600px;
-height: 524px;
-background: linear-gradient(243deg, #7E5AFF 16.9%, #55B7FF 83.27%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1600px;
+    height: 524px;
+    background: linear-gradient(243deg, #7E5AFF 16.9%, #55B7FF 83.27%);
+}
+.footer-info{
+    width: 770px;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-p{
+    margin-top: 41px;
+    width: 770px;
+    display: flex;
+    justify-content: start;
+}
+.footer-paragraph{
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
 }
