@@ -84,7 +84,7 @@ letter-spacing: 8px;
 }
 .trade {
     position: absolute;
-    left:215px;
+    left:190px;
     top:57px;
 }
 .project1-content{
@@ -241,7 +241,7 @@ font-weight: 400;
     padding: 135px 115px 143px 115px;
     max-width: 1600px;;
     height: 1035px;
-    background: linear-gradient(237deg, #24CCFA 11.16%, #3C7FD4 89.18%);
+    background-image:url("./images/news-background.svg"), linear-gradient(237deg, #24CCFA 11.16%, #3C7FD4 89.18%);
 }
 .news-line{
     text-align: center;  
@@ -295,11 +295,15 @@ font-weight: 400;
 }
 #map {
     background-color: beige;
-    width: 1500px;
+    width: 1600px;
     height: 700px;
 }
 .form-content{
-background: #FFF;
+background-image: url("./images/form-bg.svg"), lightgray 50%;
+background-size: cover;
+background-repeat: no-repeat;
+
+background-color: #FFF;
 margin:60px 0 60px 0;
 width: 770px;
 height: 450px;
@@ -311,11 +315,34 @@ left:400px;
 .form {
    
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+   
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.form-info, .contact-details{
+    width: 300px;
+    
 }
 .contact-details{
-    margin-right: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+[type="text"] {
+    width: 286px;    
+    border: none;
+    border-top: 1px solid #2C4058;
+}
+[type="email"]{
+    width: 286px;   
+    border: none;
+    border-bottom: 1px solid #2C4058;
+    opacity: 0.5;
 }
 .upper-content-contact{
     padding: 60px;
@@ -332,7 +359,7 @@ left:400px;
     align-items: center;
     width: 1600px;
     height: 524px;
-    background: linear-gradient(243deg, #7E5AFF 16.9%, #55B7FF 83.27%);
+    background-image:url("./images/footer-bg.svg"),linear-gradient(251deg, #7E5AFF -2.19%, #55B7FF 103.21%);
 }
 .footer-info{
     width: 770px;   
@@ -351,4 +378,44 @@ left:400px;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 400;
+}
+.icon {
+color: #7E5AFF;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;     
+}
+
+.contact-details p, label{
+color: #000;
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+.contact-info {
+    
+    display: flex;
+}
+::placeholder{
+color: #4B5562;
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+opacity:0.5;
+}
+.form-button{
+padding: 12px 34px;
+color: #000;
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+}
+.form-btn {
+    width: 286px;
+    display: flex;
+    justify-content: flex-end;
 }
