@@ -47,7 +47,18 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
                 <div> 
                 <h1 class="title">SIMPLE & MODERN</h1>    
                 <p>WE MAKE THE WORLD BEAUTIFUL EVERYDAY</p>
-                </div>                
+               
+                </div>  
+                <div> 
+                    <h1 class="title">SIMPLE & MODERN</h1>    
+                    <p>WE MAKE THE WORLD BEAUTIFUL EVERYDAY</p>
+                    
+                    </div>
+                    <div> 
+                        <h1 class="title">SIMPLE & MODERN</h1>    
+                        <p>WE MAKE THE WORLD BEAUTIFUL EVERYDAY</p>
+                       
+                        </div>              
               
             </div>
             <a href="#projects"><img src="images/arrow-icon.svg" alt="arrow-icon"></a>
@@ -241,21 +252,23 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script type="text/javascript">
   $(document).ready(function(){
       $('.header-slide').slick({
+        infinite:true,
         dots:true,
         slidesToShow: 1,
-        // vertical:true
+        vertical:true,
+        draggable:true
         });        
       });
-    $(document).ready(function(){
-        
+    $(document).ready(function(){        
       $('.your-class').slick({
+        infinite:true,
         dots:true,
         // centerMode:true,
         autoplay:true,
         autoplaySpeed:4000,
         infinite: true,
         slidesToShow: 3,
-        slidesToScroll: 1
+        slidesToScroll: 1,
         }); 
     // $('.header-slide').slick({
     //     arrows:true,
