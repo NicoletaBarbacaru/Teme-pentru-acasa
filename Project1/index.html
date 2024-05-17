@@ -36,7 +36,7 @@
             </div>
              </form>
             <a class="scroll" href="#why_us"><p>Scroll Down</p></a>
-            <img class="" src="img/arrow-down.svg" alt="">
+            <img src="img/arrow-down.svg" alt="">
         </div>
            <div class="top">
                <nav class="header-nav">            
@@ -51,12 +51,18 @@
                     <a class="nav-item" href="">
                         Travel With Us
                     </a>
-                    <a class="nav-item" href="">
+                    <a class="nav-item" href="#footer">
                         Contact Us
                     </a>
                 </div>                
             </nav>
-            <div class="icon-bars" onclick="showMenu()"><i class="fa-solid fa-bars"></i></div>
+            <div class="icon-bars" onclick="showMenu()">
+                <i
+                id="toggle-menu"
+                aria-expanded="false"
+                aria-label="toggle-menu"
+                aria-controls="menu"
+                class="fa-solid fa-bars"></i></div>
         </div>
             
         </header>
@@ -125,7 +131,7 @@
             </div>
         </div>
         </section>
-        <footer class="footer">
+        <footer id="footer" class="footer">
             <h2>Bhromaon</h2>
             <p>Safe Travel Anywhere</p>
             <div class="social-icons">
