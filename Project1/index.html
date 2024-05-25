@@ -49,21 +49,24 @@
                     <a class="nav-item" href="">
                         What We Do
                     </a>
-                    <a class="nav-item" href="">
+                    <a class="nav-item" href="#spain">
                         Travel With Us
                     </a>
-                    <a class="nav-item" href="#footer">
+                    <a class="nav-item" href="#social-icons">
                         Contact Us
                     </a>
                 </div>                
             </nav>
-            <div class="icon-bars" onclick="showMenu()">
-                <i
+            <div  >
+                <button 
+                onclick="showMenu()" 
+                class="icon-bars"
                 id="toggle-menu"
                 aria-expanded="false"
-                aria-label="toggle-menu"
-                aria-controls="menu"
-                class="fa-solid fa-bars"></i></div>
+                aria-label="toggle menu"
+                aria-controls="menu"><i class="fa-solid fa-bars"></i>
+                </button>
+                </div>
         </div>
             
         </header>
@@ -102,7 +105,7 @@
     </div>            
         </div>
         </section>
-        <section class="spain">
+        <section id="spain" class="spain">
             <div class="spain-first">
                 <div class="info">
                     <h3 class="spain-h3">Spain</h3>
@@ -132,15 +135,14 @@
             </div>
         </div>
         </section>
-        <footer id="footer" class="footer">
+        <footer class="footer">
             <h2>Bhromaon</h2>
             <p>Safe Travel Anywhere</p>
-            <div class="social-icons">
-                <a href="https://www.facebook.com/"><img src="img/fb.svg" alt=""></a>
-                <a href="https://twitter.com/"><img src="img/twitter.svg" alt=""></a>
-                <a href="https://www.linkedin.com/"><img src="img/linkedin.svg" alt=""></a>
-                <a href="https://www.youtube.com/"><img src="img/youtube.svg" alt=""></a>
-                <a href="https://www.pinterest.com/"><img src="img/pinterest.svg" alt=""></a>
+            <div id="social-icons" class="social-icons">
+                <a href="https://www.facebook.com/" aria-label="Find us on facebook"><img src="img/fb.svg" alt=""></a>
+                <a href="https://twitter.com/" aria-label="Find us on twitter"><img src="img/twitter.svg" alt=""></a>
+                <a href="https://www.linkedin.com/" aria-label="Find us on youtube"><img src="img/youtube.svg" alt=""></a>
+                <a href="https://www.pinterest.com/" aria-label="Find us on pinterest"><img src="img/pinterest.svg" alt=""></a>
             </div>
         </footer>
     </div>
